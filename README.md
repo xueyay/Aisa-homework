@@ -1,1 +1,67 @@
 # Aisa-homework
+
+# Aisa-homework
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>劉子嘉的個人履歷</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
+        header { background: #2c3e50; color: white; padding: 2rem; text-align: center; border-radius: 8px; margin-bottom: 20px; }
+        .section { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px; }
+        ul { list-style: none; padding: 0; }
+        li { background: #eef2f3; margin: 5px 0; padding: 10px; border-radius: 4px; }
+        .skill-tag { display: inline-block; background: #3498db; color: white; padding: 5px 12px; border-radius: 20px; margin: 5px; font-size: 0.9em; }
+        #contact-btn { background: #e67e22; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; display: block; margin: 0 auto; }
+        #contact-btn:hover { background: #d35400; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>劉子嘉 (Liu Tzu-Chia)</h1>
+    <p>亞洲大學 學生 | 學號：114022086</p>
+</header>
+
+<div class="section">
+    <h2>學歷資訊</h2>
+    <p><strong>亞洲大學 (Asia University)</strong></p>
+</div>
+
+<div class="section">
+    <h2>專業證照</h2>
+    <ul>
+        <li>電腦軟體應用乙級</li>
+        <li>硬體裝修丙級</li>
+        <li>TQC Word</li>
+        <li>TQC PowerPoint</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>專長與興趣</h2>
+    <div>
+        <span class="skill-tag">Python 程式設計</span>
+        <span class="skill-tag">電腦軟體應用</span>
+        <span class="skill-tag">電腦硬體維修</span>
+        <span class="skill-tag">古典文學與詩詞</span>
+    </div>
+</div>
+
+<div class="section">
+    <h2>互動視窗</h2>
+    <button id="contact-btn">點擊跟我打聲招呼</button>
+</div>
+
+<script>
+    document.getElementById('contact-btn').addEventListener('click', function() {
+        alert('你好！我是劉子嘉，歡迎來到我的個人履歷頁面！');
+    });
+</script>
+
+</body>
+</html>
